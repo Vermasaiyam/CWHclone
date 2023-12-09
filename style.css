@@ -16,6 +16,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    /* border-bottom: 1px solid gray; */
 }
 
 .name{
@@ -68,9 +69,14 @@ ul li a:hover::after{
 
 .header2{
     height: 40px;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: white;
+    box-shadow: 0px 5px 10px grey;
+}
+.header2 i{
+    padding: 0px 50px;
 }
 .fixed{
     position: fixed;
@@ -139,12 +145,33 @@ ol li a:hover::after{
 }
 .heading2{
     color: #7E22CE;
+    /* opacity: 0; */
+    animation: opacity 1.5s ease 1s 1 alternate;
+}
+
+@keyframes opacity {
+    0%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .heading3{
     font-size: 20px;
     color: #1F2937;
     font-weight: 600;
     padding-bottom: 10px;
+}
+
+.heading3-animation{
+    font-size: 20px;
+    color: #7E22CE;
+    font-weight: 600;
+    animation: opacity 1.5s ease 1s 1 alternate-reverse;
 }
 
 .para{
@@ -182,7 +209,6 @@ ol li a:hover::after{
 /* main2  */
 
 .main2{
-    border: 1px solid red;
     height: 700px;
 }
 
@@ -308,8 +334,7 @@ h3{
 /* main3 */
 
 .main3{
-    height: 700px;
-    border: 1px solid red;
+    height: 400px;
 }
 
 .main3-head{
@@ -336,6 +361,10 @@ h3{
     border-radius: 5px;
 }
 
+.between{
+    width: 100px;
+}
+
 .right1{
     height: 270px;
     width: 2000px;
@@ -358,3 +387,67 @@ h3{
     line-height: 28px;
 }
 
+.left1 div{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.left1 div b{
+    font-weight: 600;
+}
+.left1 div p{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+}
+
+.right1 div{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.right1 div b{
+    font-weight: 600;
+}
+.right1 div p{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+}
+
+
+
+/* Footer */
+footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+.Copyright img{
+    margin: 0px 20px;
+}
+.Copyright h3{
+    padding-top: 14px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.Copyright p{
+    color: grey;
+}
+
+.icons{
+    margin: 0px 80px;
+}
+
+.icons i{
+    padding: 0px 10px;
+    transform: scale(1.3);
+}
