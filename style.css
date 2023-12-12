@@ -177,7 +177,7 @@ ol li a:hover::after{
     animation: opacity 1.5s ease 1s 1 alternate-reverse;
 }
 
-.para{
+.paragraph{
     font-size: 14px;
     color: gray;
     width: 80%;
@@ -227,7 +227,7 @@ ol li a:hover::after{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 60px 155px;
+    margin: 60px;
 }
 .video{
     color: white;
@@ -235,6 +235,7 @@ ol li a:hover::after{
     box-shadow: 5px 10px 8px #888888a7;
     height: 510px;
     width: 393px;
+    margin: 0px 60px;
 }
 
 .img{
@@ -246,9 +247,7 @@ h5{
     font-size: 12px;
     color: black;
     font-weight: 600;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 3px;
+    padding: 20px 20px 3px 20px;
 }
 h3{
     color: black;
@@ -260,18 +259,22 @@ h3{
 
 .para{
     font-size: 15px;
-    padding: 0px 20px 35px 20px;
+    padding: 0px 20px;
     color: gray;
     font-weight: 400;
     line-height: 22px;
 }
 
+.para1{
+    padding-bottom: 30px;
+}
+
 .para2{
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
 .para3{
-    padding-bottom: 55px;
+    padding-bottom: 50px;
 }
 
 .button{
@@ -308,7 +311,7 @@ h3{
 }
 
 .content-3{
-    height: 270px;
+    height: 300px;
     width: 50%;
     background: #88888819;
     padding: 0px 30px;
@@ -327,7 +330,7 @@ h3{
     font-weight: 400;
     color: gray;
     line-height: 28px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 
