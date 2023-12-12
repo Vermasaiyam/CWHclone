@@ -73,7 +73,7 @@ ul li a:hover::after{
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    box-shadow: 0px 5px 10px grey;
+    box-shadow: 0px 5px 8px grey;
 }
 .header2 i{
     padding: 0px 50px;
@@ -124,18 +124,21 @@ ol li a:hover::after{
     display: flex;
     height: 380px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.img{
+.image-1{
     max-width: 560px;
-    height: auto;
+    height: 100%;
 }
 
 .content-left{
-    width: 37%;
+    padding: 0px 120px;
     align-items: center;
     justify-content: center;
+}
+.content-right{
+    margin: 0px 90px;
 }
 
 .heading1{
@@ -146,7 +149,7 @@ ol li a:hover::after{
 .heading2{
     color: #7E22CE;
     /* opacity: 0; */
-    animation: opacity 1.5s ease 1s 1 alternate;
+    animation: opacity 1.5s ease 1s infinite alternate;
 }
 
 @keyframes opacity {
@@ -177,6 +180,7 @@ ol li a:hover::after{
 .para{
     font-size: 14px;
     color: gray;
+    width: 80%;
     font-weight: 400;
     line-height: 22px;
     padding-bottom: 25px;
@@ -214,54 +218,27 @@ ol li a:hover::after{
 
 
 .heading4{
-    justify-content: center;
-    text-align: center;
     font-size: 32px;
     font-weight: 600;
     padding-top: 20px;
 }
 
-.video{
+.videos{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding-top:60px;
-    padding-left: 155px;
-    padding-right: 155px;
+    margin: 60px 155px;
 }
-.video1{
+.video{
     color: white;
     border-radius: 32px;  
-    padding: 10px;
     box-shadow: 5px 10px 8px #888888a7;
     height: 510px;
-    width: 394.5px;
-}
-.video2{
-    color: white;
-    border-radius: 32px;  
-    padding: 10px;
-    box-shadow: 5px 10px 8px #888888a7;
-    height: 510px;
-    width: 394.5px;
-}
-.video3{
-    color: white;
-    border-radius: 32px;  
-    padding: 10px;
-    box-shadow: 5px 10px 8px #888888a7;
-    height: 510px;
-    width: 394.5px;
+    width: 393px;
 }
 
-.img1{
-    border-radius: 20px;
-}
-
-.img2{
-    border-radius: 20px;
-}
-
-.img3{
+.img{
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -281,42 +258,24 @@ h3{
     padding-bottom: 15px;
 }
 
-.para1{
+.para{
     font-size: 15px;
-    padding-left:20px;
-    padding-right: 20px;
-    padding-bottom: 35px;   
+    padding: 0px 20px 35px 20px;
     color: gray;
     font-weight: 400;
     line-height: 22px;
-    padding-bottom: 30px;
 }
 
 .para2{
-    font-size: 15px;
-    padding-left:20px;
-    padding-right: 20px;
-    padding-bottom: 60px;
-    color: gray;
-    font-weight: 400;
-    line-height: 22px;
-    padding-bottom: 10px;
+    padding-bottom: 35px;
 }
 
 .para3{
-    font-size: 15px;
-    padding-left:20px;
-    padding-right: 20px;
-    padding-bottom: 60px;
-    color: gray;
-    font-weight: 400;
-    line-height: 22px;
     padding-bottom: 55px;
 }
 
 .button{
     padding: 12px 14px;
-    justify-content: space-between ;
     font-size: 15px;
     background: #7E22CE;
     color: white;
@@ -325,9 +284,7 @@ h3{
     font-weight: 500;
     border-radius: 40px;
     cursor: pointer;
-}
-.butt{
-    padding-left: 20px;
+    margin:  0px 20px;
 }
 
 
@@ -338,8 +295,6 @@ h3{
 }
 
 .main3-head{
-    justify-content: center;
-    text-align: center;
     font-size: 28px;
     font-weight: 600;
     padding-top: 2px;
@@ -347,34 +302,22 @@ h3{
 
 .main3-content{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding: 40px 90px 0px 90px;
 }
 
-.left1{
+.content-3{
     height: 270px;
-    width: 2000px;
+    width: 50%;
     background: #88888819;
-    padding-right: 20px;
+    padding: 0px 30px;
+    margin: 0px 15px;
     border-radius: 5px;
 }
 
-.between{
-    width: 100px;
-}
-
-.right1{
-    height: 270px;
-    width: 2000px;
-    background: #88888819;
-    padding-left:20px ;
-    border-radius: 5px;
-}
 
 .comma{
-    padding-left: 30px;
     font-size: 70px;
     color: rgba(128, 128, 128, 0.636);
 }
@@ -383,41 +326,15 @@ h3{
     font-size: 14px;
     font-weight: 400;
     color: gray;
-    padding-left: 30px;
     line-height: 28px;
+    padding-bottom: 15px;
 }
 
-.left1 div{
-    padding-left: 50px;
-    padding-top: 20px;
-}
-
-.left1 div b{
-    font-weight: 600;
-}
-.left1 div p{
-    font-weight: 400;
-    font-size: 15px;
-    color: rgb(128, 128, 128);
-}
-
-.right1 div{
-    padding-left: 50px;
-    padding-top: 20px;
-}
-
-.right1 div b{
-    font-weight: 600;
-}
-.right1 div p{
-    font-weight: 400;
-    font-size: 15px;
-    color: rgb(128, 128, 128);
-}
 
 
 
 /* Footer */
+
 footer{
     height: 200px;
     display: flex;
